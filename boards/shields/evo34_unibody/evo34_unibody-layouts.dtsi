@@ -1,0 +1,44 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_evo34_unibody: physical_layout_evo34_unibody {
+        compatible = "zmk,physical-layout";
+        display-name = "Evo34-unibody";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100   45   94    1100    95   144>
+            , <&key_physical_attrs 100 100  150   50    1100   200   100>
+            , <&key_physical_attrs 100 100  253   16    1100   303    66>
+            , <&key_physical_attrs 100 100  351    9    1100   401    59>
+            , <&key_physical_attrs 100 100  435   73    1100   485   123>
+            , <&key_physical_attrs 100 100  766   73 (-1100)   816   123>
+            , <&key_physical_attrs 100 100  850    9 (-1100)   900    59>
+            , <&key_physical_attrs 100 100  947   17 (-1100)   997    67>
+            , <&key_physical_attrs 100 100 1050   50 (-1100)  1100   100>
+            , <&key_physical_attrs 100 100 1155   95 (-1100)  1205   145>
+            , <&key_physical_attrs 100 100   27  187    1100    77   237>
+            , <&key_physical_attrs 100 100  132  143    1100   182   193>
+            , <&key_physical_attrs 100 100  235  109    1100   285   159>
+            , <&key_physical_attrs 100 100  333  102    1100   383   152>
+            , <&key_physical_attrs 100 100  417  166    1100   467   216>
+            , <&key_physical_attrs 100 100  784  166 (-1100)   834   216>
+            , <&key_physical_attrs 100 100  868  102 (-1100)   918   152>
+            , <&key_physical_attrs 100 100  965  110 (-1100)  1015   160>
+            , <&key_physical_attrs 100 100 1068  143 (-1100)  1118   193>
+            , <&key_physical_attrs 100 100 1174  188 (-1100)  1224   238>
+            , <&key_physical_attrs 100 100    9  280    1100    59   330>
+            , <&key_physical_attrs 100 100  114  236    1100   164   286>
+            , <&key_physical_attrs 100 100  217  202    1100   267   252>
+            , <&key_physical_attrs 100 100  315  195    1100   365   245>
+            , <&key_physical_attrs 100 100  399  259    1100   449   309>
+            , <&key_physical_attrs 100 100  802  259 (-1100)   852   309>
+            , <&key_physical_attrs 100 100  886  195 (-1100)   936   245>
+            , <&key_physical_attrs 100 100  984  203 (-1100)  1034   253>
+            , <&key_physical_attrs 100 100 1086  236 (-1100)  1136   286>
+            , <&key_physical_attrs 100 100 1192  281 (-1100)  1242   331>
+            , <&key_physical_attrs 100 100  415  370    1100   465   420>
+            , <&key_physical_attrs 100 100  531  410    2600   581   460>
+            , <&key_physical_attrs 100 100  670  410 (-2600)   720   460>
+            , <&key_physical_attrs 100 100  786  370 (-1100)   836   420>
+            ;
+    };
+};
